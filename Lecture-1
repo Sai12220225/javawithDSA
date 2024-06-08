@@ -1,0 +1,13 @@
+Objects and classes in java
+------
+Objects = Anything that has a state and behaviour is  known as an object.   eg: car, laptop, pen (physical) , Intangible objecs like some banking system (logical)
+   An object is a real world entity.
+   An object is an instance of a class.
+
+ Class = A class can be seen as a bueprint from which objects are created. 
+         A class is a group of objects which have common properties
+A class in java contain :
+                         -Fields
+                         -Methods
+                         -Constructors
+                         -Nested class an interface
