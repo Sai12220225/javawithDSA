@@ -1,0 +1,23 @@
+package corejava;
+
+public class primitive {
+	public static void main(String[] args) {
+		int x = 5;
+		int y = 2;
+		System.out.println("The value of X is : " +x);
+		System.out.println("The value of Y is : " +y);
+		
+		byte b = 100;  
+		System.out.println("value of B is : " +b);
+		
+		int i = b;
+		System.out.println("I is :" +i);
+		
+		byte b2 =(byte)130;
+		System.out.println("B2 is :" +b2);
+
+		byte b3 =(byte)129;
+		System.out.println("B3 is :" +b3);
+	        
+		}
+}
