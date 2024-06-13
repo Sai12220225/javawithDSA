@@ -1,7 +1,7 @@
 package corejava;
 class car{
 	String name;
-	String color;
+	String color;                                             //////ControlFlow//////
 	int year;
 	int maxspeed;
 	void accelerate() {
@@ -12,7 +12,6 @@ class car{
 public class carstudy {
 	public static void main(String[] args) {
 	car bmw = new car();
-
 	
 	bmw.name ="BMW";
 	bmw.color ="red";
@@ -23,14 +22,8 @@ public class carstudy {
 	System.out.println(bmw.color);
 	System.out.println(bmw.year);
 	System.out.println(bmw.maxspeed);
-	
-	
 	}
-
-
-
 }
-
 
 
 
@@ -38,7 +31,7 @@ public class carstudy {
 package corejava;
 class student{
 	String name;
-	int marks;
+	int marks;                                                      //////If-else///////
 	boolean passorfail() {
 		if(marks>=40)return true;
 		return false;
@@ -55,9 +48,7 @@ public class controlflow {
 	student s2 = new student();
 	s2.name="k";
 	s2.marks=20;
-	
-	
-	System.out.println(s2.passorfail());
+		System.out.println(s2.passorfail());
 
 }}
 
@@ -71,7 +62,7 @@ package corejava;
 public class controlflow1 {
 	int findmax(int a , int b, int c) 
 	{
-		if(a>b)   //Nested Class
+		if(a>b)                                                    /////Nested If-else/////
 		{
 			if(a>c) {
 				return a;
@@ -96,8 +87,9 @@ public static void main(String[]args) {
 	controlflow1 cf = new controlflow1();
 	System.out.println(cf.findmax(10,7,15));
 }
-	
 }
+
+
 
 
 
@@ -105,7 +97,7 @@ public static void main(String[]args) {
 package corejava;
 
 public class controlflow2 {
-	public static void main(String[] args) {
+	public static void main(String[] args) {                                  //////Switch///////
 		char c= 'd';
 		switch(c) {
 		case 'a':
